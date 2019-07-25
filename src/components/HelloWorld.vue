@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <a href="https://www.cnblogs.com/yuqing6/p/7440549.html">vue调试工具vue-devtools安装及使用</a>
   </div>
 </template>
 
