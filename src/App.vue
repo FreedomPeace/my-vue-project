@@ -79,5 +79,37 @@
     width: 100%;
     z-index: 999;
   }
+  /*复写原有的样式，控制选中item的指示器的样式*/
+  .mint-navbar .mint-tab-item.is-selected {
+    border-bottom: 0 solid #3c6cde;
+  }
+
+  /*复写原有的样式，控制未选中item的图片的样式*/
+  .mint-navbar .mint-tab-item img {
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+    margin-left: -20%;
+  }
+
+  /*复写原有的样式，控制选中item的图片的样式*/
+  .mint-navbar .mint-tab-item.is-selected img {
+    width: 45px;
+    height: 45px;
+    margin-top: 0;
+    margin-left: -30%;
+
+  }
+  /*复写原有的样式，控制选中item的label样式*/
+  .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label {
+    margin-top: 30px;
+    color: #fff;
+  }
+  /*复写原有的样式，控制未选中的item的样式*/
+  .mint-tab-item-label {
+    margin-top: 20px;
+    color: #ddd;
+  }
+
 
 </style>
