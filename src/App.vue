@@ -104,6 +104,7 @@
   .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label {
     margin-top: 30px;
     color: #fff;
+    font-size: medium;
   }
   /*复写原有的样式，控制未选中的item的样式*/
   .mint-tab-item-label {
