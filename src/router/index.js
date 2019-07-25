@@ -11,11 +11,6 @@ export default new Router({
       path: '/HelloWord',
       name: 'HelloWorld',
       component: HelloWorld
-    },
-    {
-      path: '/',
-      name: 'TabView',
-      component: TabView
     }
   ]
 })
