@@ -17,7 +17,7 @@
           </mt-tab-item>
 
           <mt-tab-item id="3">
-            <img slot="icon" src="./assets/mail.png"/>
+            <img slot="icon" src="./assets/main.png"/>
             主页
           </mt-tab-item>
 
@@ -53,7 +53,7 @@
             vm.$router.replace('detail');
             break;
           case '3':
-            vm.$router.replace('mail');
+            vm.$router.replace('Main');
             break;
           case '4':
             vm.$router.replace('picture');
